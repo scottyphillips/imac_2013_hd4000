@@ -34,6 +34,7 @@ This is the working config for 'refind.conf'
 # Default value: osx
 #
 use_graphics_for linux
+
 # Tell a Mac's EFI that macOS is about to be launched, even when it's not.
 # This option causes some Macs to initialize their hardware differently than
 # when a third-party OS is launched normally. In some cases (particularly on
@@ -81,6 +82,14 @@ Make sure 'mesa' and 'xf86-video-intel' is installed.
 * X11 refused to run hardware accelleration, but strangely Wayland works fine.
 * No Screen blanking -> screen is always on. Thats a pain for me because I like to run services in the background. 
 * The display is 'noisy' its almost like its using an analog signal to the panel. The artifacts look similar to clock lines where the color signal changes. But with the right combination of colors you can minimise the effect. Black and white colors work best.
-* Forget about gaming. Minecraft dropped from locked 120fps on the Nvidia to barely hitting 30fps on the HD4000. 
+* Forget about gaming. Minecraft dropped from locked 120fps on the Nvidia to barely hitting 30fps on the HD4000.
+* Appears to be impossible to change resolution from native 2560x1440x60.
+  
+# Benefits?
+* Err, Wayland kinda actually works? (About as well as you expect Wayland to run on a HD4000).
+* No more DKMS drivers breaking with every kernel update. 
+* Less gaming means more quality time with family
+* You can run Linux in pure EFI mode and get access to the TTYs. With Propriatery Nvidia I previously had to run in CSM mode with GRUB.
+* EFI mode means faster boot time from REFIND. 
 
 
