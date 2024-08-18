@@ -1,6 +1,6 @@
 # Enabling HD4000 Graphics on iMac 2013 with broken GTX780M for use in Linux. 
 
-My GTX780M Kepler in my 2013 iMac decided that it was time to die. One moment it was working and then it crashed and I needed to hard reboot. When I rebooted, Linux refused to initiate the card. I suspect that either GPU RAM or something firmware related has gone bad. But when booting, parts of the graphics subsystem still appeared to be working. 
+My GTX780M Kepler in my 2013 iMac decided that it was time to die. One moment it was working and then it crashed and I needed to hard reboot. When I rebooted, Linux refused to initialize the card - both Nvidia drivers and Nouveau refused to work. I suspect that either GPU RAM or something firmware related has gone bad. But when booting, parts of the graphics subsystem still appeared to be working. 
 
 It is fairly well known that many Intel Macbooks have a built in iGPU that is typically hidden from users and requires advanced tweaking typically at the EFI level to expose it to operating systems. Turns out that my iMac has a hidden Intel HD4000 as well. This is the basic steps to enable it in the event your Nvidia dGPU kicks the bucket. 
 
