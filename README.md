@@ -11,6 +11,7 @@ These are quick notes I will write something up later.
 * Know how to use REFIND
 * Linux needs to be booted from REFIND in EFI mode, not CSM. (I use Arch btw)
 * Some way to access the linux Terminal (eg SSH)
+* Altenratively install REFIND on a USB stick formatted with an EFI partition. This could be useful for installing a new OS but I am not going into that here. 
 
 # REFIND config
 
