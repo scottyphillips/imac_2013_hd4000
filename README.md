@@ -81,7 +81,7 @@ Make sure 'mesa' and 'xf86-video-intel' is installed.
 * Against the advice of the Arch wiki I had to install 'xf86-video-intel' to get this to work. 
 * X11 refused to run hardware accelleration, but strangely Wayland works fine.
 * No Screen blanking -> screen is always on. Thats a pain for me because I have running services in the background such as NextCloud and Plex. Time to buy a NUC... 
-* The display is 'noisy' its almost like its using an analog signal to the panel. The artifacts look similar to clock lines where the color signal changes. But with the right combination of colors you can minimise the effect. Black and white colors work best.
+* The display is 'noisy' -> its almost looks like its sending an analog signal to the built-in panel, which is odd because its going through the GMUX so I assume its still passing a digital signal. The artifacts look similar to clock lines where the color signal changes slighly. It could even be a framebuffering quirk with the Intel Mac plaform. But with the right combination of colors you can minimise the effect. Dark black and full white colors work best. Grey hues looks the worst. 
 * Forget about gaming. Minecraft dropped from locked 120fps on the Nvidia to barely hitting 30fps on the HD4000.
 * Appears to be impossible to change resolution from native 2560x1440x60.
 * Now that the CPU is doing all work previously done by the dGPU expect the fan to ramp up a lot more.
