@@ -84,10 +84,11 @@ Make sure 'mesa' and 'xf86-video-intel' is installed.
 * The display is 'noisy' its almost like its using an analog signal to the panel. The artifacts look similar to clock lines where the color signal changes. But with the right combination of colors you can minimise the effect. Black and white colors work best.
 * Forget about gaming. Minecraft dropped from locked 120fps on the Nvidia to barely hitting 30fps on the HD4000.
 * Appears to be impossible to change resolution from native 2560x1440x60.
+* Now that the CPU is doing all work previously done by the dGPU expect the fan to ramp up a lot more.
   
 # Benefits?
 * Err, Wayland kinda actually works? (About as well as you expect Wayland to run on a HD4000).
-* No more DKMS drivers breaking with every kernel update. 
+* No more legacy nvidia-470-dkms drivers breaking with every kernel update. 
 * Less gaming means more quality time with family
 * You can run Linux in pure EFI mode and get access to the TTYs. With Propriatery Nvidia I previously had to run in CSM mode with GRUB.
 * EFI mode means faster boot time from REFIND. 
